@@ -1,0 +1,17 @@
+:watcher:
+  -
+    :name: google
+    :url: http://www.google.com
+    :expected: </html>
+    :interval: 60
+
+:mailgun:
+  :api_key: <API KEY>
+  :api_url: <API URL: https://api:APIKEY/v2/DOMAIN.mailgun.org"
+
+:notification:
+  :email:
+    :from: from@example.com
+    :to: to@example.com
+    :bcc: bcc@example.com
+    :subject: Subject
